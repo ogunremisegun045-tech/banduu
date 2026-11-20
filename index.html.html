@@ -597,14 +597,9 @@
     .hero-content{max-width:760px;padding:0 6vw 36px}
   }
 
-/* mobile: smaller tag tucked into the top-right corner so it doesn't cover the hair */
-@media(max-width:700px){
-  .hang-tag{top:10px;right:8px;width:86px;padding:7px 7px 8px;transform:none;box-shadow:0 6px 14px rgba(0,0,0,.35)}
-  .hang-tag::before{top:-5px;width:8px;height:8px;box-shadow:0 0 0 2px var(--champagne)}
-  .hang-tag .tag-brand{font-size:9px;padding-bottom:5px;margin-bottom:5px;line-height:1.15}
-  .hang-tag .tag-row{font-size:7.5px;margin-bottom:2px}
-  .unit-card:hover .hang-tag{transform:none}
-}
+/* tag top-left at its original size, lot label top-right */
+.hang-tag{left:16px;right:auto}
+.unit-lot{left:auto;right:16px}
 </style></head><body>
 <header id="siteHeader"><div class="logo"><b>B&amp;U NATURAL HAIR</b><span>PREMIUM HUMAN HAIR VENDOR</span></div>
 <nav class="nav-links" id="navLinks"><a href="#collection">Collection</a><a href="#more">More</a><a href="#lookbook">Lookbook</a><a href="#contact">Contact</a><a data-wa="Hi B&U Natural Hair, I’d like to place an order" href="#" class="nav-cta">Order on WhatsApp</a></nav>
